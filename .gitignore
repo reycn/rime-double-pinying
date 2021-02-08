@@ -6,6 +6,8 @@ luna_pinyin.userdb
 sync
 build
 .DS_Store
+installation.yaml
+user.yaml
 # *.txt
 # *.lua
 # *.png
