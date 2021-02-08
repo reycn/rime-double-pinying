@@ -1,0 +1,13 @@
+# *.dict.yaml
+cangjie5.userdb
+easy_en.userdb
+extended.userdb
+luna_pinyin.userdb
+sync
+build
+.DS_Store
+# *.txt
+# *.lua
+# *.png
+# *.gram
+说明.txt
