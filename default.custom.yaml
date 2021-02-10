@@ -17,23 +17,24 @@ patch:
     Shift_L: commit_code
     Shift_R: commit_code
   
-  # punctuator:
-  #   half_shape:
-  #     "#": "#"
-  #     "`": "`"
-  #     "~": "~"
-  #     "@": "@"
-  #     "=": "="
-  #     "/": "/"
-  #     '\': "\\"
-  #     "'": "'"
-  #     "[": "["
-  #     "]": "]"
-  #     "$": "$"
-  #     "%": "%"
-  #     "<": "<"
-  #     ">": ">"
-  #     "*" : "*"
+  punctuator:
+    half_shape:
+      "#": "#"
+      "`": "`"
+      "~": "~"
+      "@": "@"
+      "=": "="
+      "/": "/"
+      '\': "\\"
+      "'": "'"
+      "[": "["
+      "]": "]"
+      "$": "$"
+      "%": "%"
+      "<": "<"
+      ">": ">"
+      "*" : "*"
+    
   key_binder/bindings: # 设置翻页
     - { when: paging, accept: minus, send: Page_Up }
     - { when: has_menu, accept: equal, send: Page_Down }
